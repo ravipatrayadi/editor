@@ -6,7 +6,10 @@ import {RangeDirective, RangesDirective, SheetDirective, SheetsDirective,
 
 const SpreadSheet = () => {
   return (
-    <div style={{height : '950px'}}>
+    <div style={{height : '730px', marginLeft : '40px' , marginRight: '40px'} }>
+    <div className='heading'>
+        <h2 style={{ fontWeight: 'normal',  textAlign : 'center'}}>Edit Sheet</h2>
+    </div>
       <SpreadsheetComponent allowOpen={true}
         openUrl="https://ej2services.syncfusion.com/production/web-services/api/spreadsheet/open"
         allowSave={true}

@@ -7,7 +7,11 @@ DocumentEditorContainerComponent.Inject(Toolbar);
 const Document = () => {
   return (
     <div>
-      <DocumentEditorContainerComponent id="container" height={'800px'} serviceUrl="https://ej2services.syncfusion.com/production/web-services/api/documenteditor/" enableToolbar={true}/>
+
+<div className='heading'>
+        <h2 style={{ fontWeight: 'normal',  textAlign : 'center'}}>Edit Document</h2>
+</div>
+      <DocumentEditorContainerComponent id="container" height={'720px'} serviceUrl="https://ej2services.syncfusion.com/production/web-services/api/documenteditor/" enableToolbar={true}/>
     </div>
   )
 }
